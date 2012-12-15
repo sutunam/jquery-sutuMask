@@ -26,8 +26,8 @@
                 $(this).data('_mask', $('<div></div>').css({
                     'position'          : 'absolute',
                     'opacity'           : opts.opacity,
-                    'height'            : $(this).height(),
-                    'width'             : $(this).width(),
+                    'height'            : $(this).outerHeight(),
+                    'width'             : $(this).outerWidth(),
                     'top'               : offset.top,
                     'left'              : offset.left,
                     'background-color'  : opts.backgroundColor,
