@@ -8,7 +8,7 @@
     var defaults = {
         opacity : 0.8,
         backgroundColor : '#FFF',
-        zIndex : 99,
+        zIndex : 99
     };
     var dataKey = '_mask';
     
